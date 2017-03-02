@@ -1,0 +1,5 @@
+[alias]
+	graph = log --graph --pretty=format:'%C(auto)%d %h %cr %Cblue%cn %Creset %s'
+	ls = ls-files
+	count = rev-list HEAD --count
+
